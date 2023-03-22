@@ -1,0 +1,84 @@
+.collapsible {
+    background-color: rgb(207, 199, 199);
+    color: rgb(37, 37, 37);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+  }
+  
+.active, .collapsible:hover {
+  background-color: rgb(184, 183, 183);
+}
+  
+
+.collapsecontent {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.checked {
+  color: orange;
+}
+
+.addbutton {
+  position: relative;
+  padding: 0.5em 1em;
+  border: 0;
+  border-radius: 0.5em;
+  background-color: pink;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  margin: 10px;
+}
+
+.buttonactive {
+  position: relative;
+  padding: 0.5em 1em;
+  border: 0;
+  border-radius: 0.5em;
+  background-color: pink;
+  top: 2px;
+  left: 1px;
+  box-shadow: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.inforow {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content:center;
+}
+
+.submitbutton{
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+  margin:10px;
+}
+
+.submitbutton:hover {
+  background-color: royalblue;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
